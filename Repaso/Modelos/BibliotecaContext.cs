@@ -1,6 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.SqlServer;
 
+using Repaso.Modelos;
+
+
 namespace Repaso.Modelos
 {
     public class BibliotecaContext : DbContext
