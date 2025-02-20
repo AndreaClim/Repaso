@@ -11,8 +11,8 @@ namespace Repaso.Modelos
 
         }
 
-        public DbSet<libros> libros { get; set; }
-        public DbSet<autores> autores { get; set; } 
-        public DbSet<categorias> categorias { get; set; }
+        public DbSet<libro> libros { get; set; }
+        public DbSet<autor> autores { get; set; } 
+        public DbSet<categoria> categorias { get; set; }
     }
 }
